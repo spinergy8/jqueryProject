@@ -1,0 +1,13 @@
+h1, h3 {
+	font-family: Calibri;
+	color: green;
+}
+div {
+	display:inline-block;
+}
+p {
+	font-weight: bold;
+	font-stretch: extra-expanded;
+}
+
+
