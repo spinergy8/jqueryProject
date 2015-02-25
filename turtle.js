@@ -1,9 +1,12 @@
 $(document).ready(function() {
   $('button').click(function() {
-    //$('#Tobias').fadeIn("fast");
-    //$('#Wazkelly').fadeIn("fast");
-    
+  $('#Tobias, #Wazkelly').css({opacity: 1});
 
+  //$('#Tobias, #Wazkelly').fadeTo("fast", 1, function() {
+
+  //});  
+
+//$('#Tobias, #Wazkelly').fadeTo("fast", 0.0);
 
 var Animal = function(n, s, f) {
   this.name = n;
@@ -26,8 +29,6 @@ var Animal = function(n, s, f) {
 
 var turtle = new Animal ("Tobias Turtle", 4, 5);
     rabbit = new Animal ("Wazkelly Rabbit", 4, 5);
-    //rabbit.opacity = 1;
-    //turtle.opacity = 1;
 
 var distance = 55;
 var count = 0;
@@ -80,7 +81,6 @@ $(document).ready(function() {
   });
 });
 });
-
 //console.log(turtle.report());
 //console.log(rabbit.report());
 
